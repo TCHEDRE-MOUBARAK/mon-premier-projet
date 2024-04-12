@@ -1,0 +1,225 @@
+/*
+CECI EST UN COMMENTAIRE
+*/
+
+  h1  { 
+    font-family:'theblackliste','georgia','comic sans ms' ;
+    margin-top: 0%;
+    padding-top: 30px;
+    border-bottom: 5px white solid;
+    text-shadow: 3px 3px 3px silver;
+  }
+
+  h1:active {
+    color: red; 
+  }
+
+ a:focus{ 
+    color: red;
+  }
+
+  h2  { 
+    font-family: 'open sans'sans-serif;
+    font-size : 1,5em;
+    width: 400px;
+    margin: auto;
+   }
+
+h3:before{
+    content: " « ";
+    color: grey;
+}
+
+h3  { 
+  font-size:  1,5em ;
+  text-transform: uppercase;
+
+    }
+
+    h3:after{
+      content: " » ";
+      color: grey;
+
+    }
+header {
+        text-align: center;
+        background: #1d1d1d;
+        color: white;
+        padding-bottom: 30px ;
+    }
+
+section {
+    text-align: center;
+    margin-top: 50px;
+ }   
+   
+body {
+    font-family: 'Roboto',sans-serif;
+    background: #f4f7f6;
+     border: 5px white solid;
+     margin: 0%;
+}
+
+   
+
+a {
+    text-decoration:none ;
+    color: black;
+} 
+
+a :visited{ 
+    color: red;
+} 
+
+ul {
+    padding: 0;
+    display:inline ;
+} 
+
+li {
+list-style-type: none; 
+display: inline;
+margin: 10px;
+}
+
+li :hover{
+    font-weight: bold ;
+    
+}
+
+
+nav {
+    text-align: center;
+    background: white;
+    box-shadow: 0xp 3px 1px -1px rgba(0, 0, 0, 0,5) ;
+    font-size: 1.1em ;
+    padding: 15px;
+   
+}
+
+footer {
+   background: #1D1D1D;
+   color: white; 
+   text-align: center;
+   padding: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*ID*/
+#contact {
+    border: 1px black solid;
+    border-radius : 15px;
+    padding: 30px;
+    margin-bottom: 50px;
+   
+}
+
+#logo {
+   margin-top: 30px ;
+  width: 50px;
+ 
+  }  
+
+#projet {
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+#picture-project  img{
+    width: 90%;
+}
+
+/* CLASSE*/ 
+.separator{
+  width: 40px;
+  height: 1xp ;
+  margin: 15px auto;
+  display: block;
+  background: #999999;
+} 
+
+.contener{
+  width: 80%;
+ margin: auto;
+}
+
+.projet {
+  width: 400px;
+  margin: 30px;
+  display: inline-block;
+  background: white ;
+  padding-bottom: 15px;
+   border: 0px black solid;
+   border-radius: 10px;
+   overflow: hidden; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 
+   0 3px 6px rgba(0,0,0,0.23);
+
+}
+
+.projet:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 
+  0 3px 6px rgba(0,0,0,0.23);
+  transition: 0,3s ;
+}
+
+
+.projet img{
+     min-width : 400px;
+     height: 266px;
+}
+
+
+.projet span{
+  text-transform: uppercase;
+  display: block;
+}
+
+.projet  .date-project{
+   font-size: 0,7em;
+}
+
+.pictures {
+     width : 400px;
+     height: 266px; 
+     overflow:hidden ;
+     margin-bottom: 15px;  
+}
+
+.pictures-project img , .pictures-project video{
+     width: 80%;
+}
+
+.youtube-video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 360%;
+  display: inline-block;
+}
+
+#video {
+  width: 500px;
+  height: 360px;
+  margin-bottom: 1.5rem;
+}
+
+
+
+  /*POLICE*/ 
+@font-face{
+    font-family: 'theblacklist';
+    src: url('../SRC/theBlacklist.ttf') format('truetypes');
+}
+ 
+/*MEDIA*/
+@media all and (max-width:1000px ){
+    .projet {width: 100%;}
+    .projet img { width: 100px;min-width: auto; height: auto;}
+    .projet .pictures { width: 100px; height: auto;}
+    header h2 { width: 90%;}
+}
+

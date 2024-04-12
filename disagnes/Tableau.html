@@ -1,0 +1,131 @@
+<<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA- Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <title>Tableaux</title>
+        <style type="text/css">
+
+            table{
+                border-collapse: collapse ;
+                caption-side: bottom;
+            }
+        td , th {
+            border: 1xp black solid;
+            padding: 5 px;
+        } 
+
+       
+         </style>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+
+        <!--TABLEAU SIMPLE-->
+       <table>
+        <tr>
+        <th>PRENOM</th>
+        <th>NOM</th>
+        <tr>
+            <td>pierre</td>
+            <td>Jacques</td>
+        </tr>
+       </table>
+
+<!--TABLEAU COMPLEXE-->
+
+       <table>
+<thead>
+    <tr>
+       <th>NOM</th>
+       <th>PRENOM</th>
+       <th>EST CELIBATAIRE ?</th>
+       <TH>EST EN COUPLES ?</TH>
+    </tr>
+</thead>
+
+<tbody>
+    <tr>
+        <td>PIERRE</td>
+        <td>JARDINNIER</td>
+        <td>OUI</td>
+        <td>NOM</td>
+    </tr>
+
+    <tr>
+       <td> YAYI</td>
+       <td>ETUDIANTE</td>
+       <td>OUI</td>
+       <td>NOM</td>
+    </tr>
+
+    <tr>
+        <td>FANTA</td>
+        <td>ECRIVAIN</td>
+        <td>NON</td>
+        <td>OUI</td>
+    </tr>
+    <tr>
+        <td>AWA</td>
+        <td>POLITICIEN</td>
+        <td colspan="2">ON NE SAIS PAS</td>
+        </tr>
+    
+
+</tbody>
+
+
+<tfoot>
+<tr>
+    <th>PRENOM</th>
+    <th>PROFESSION</th>
+    <th>EST CELIBATAIRE ?</th>
+    <th>EST EN COUPLES</th>
+</tr>
+</tfoot>
+
+       </table><br />
+
+ <!--l'inverse du tableau presedent-->
+
+     <table>
+        <caption>les personnages du jeu video </caption>
+    <tr>
+        <th>PRENOM</th>
+        <td>PIERRE</td>
+        <td>FANTA</td>
+        <td>AWA</td>
+    </tr>
+
+    <tr>
+        <th>PROFESSION</th>
+        <td>JARDINNIER</td>
+        <td>ECRIVAIN</td>
+        <td>POLITICIEN</td>
+    </tr>
+
+    <tr>
+        <TH>EST CELIBATAIRE ?</TH>
+        <td>OUI</td>
+        <td>NOM</td>
+        <td rowspan="2">ON NE SAIS PAS</td>
+    </tr>
+
+    <tr>
+        <th>EST EN COUPLES ?</th>
+        <td>NOM</td>
+        <td>OUI</td>
+        
+    </tr>
+     </table>  
+
+        <script src="" async defer></script>
+    </body>
+</html>
